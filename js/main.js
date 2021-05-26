@@ -4,5 +4,5 @@ function dodaj() {
 }
 
 function usun() {
-    document.getElementById('tekst').remove('tesk');
+    document.getElementById('tekst').innerText = ' ';
 }
